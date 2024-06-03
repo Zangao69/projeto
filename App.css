@@ -1,0 +1,62 @@
+/* src/App.css */
+
+/* Estilo básico para o corpo e a aplicação */
+body, html, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Contêiner principal para centralizar o conteúdo */
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  /* Contêiner para a planta baixa */
+  .floor-plan-container {
+    width: 80%;
+    max-width: 800px;
+    background-color: white;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Contêiner para o modelo 3D */
+  .model-3d-container {
+    width: 80%;
+    max-width: 800px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para o título */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Estilo do SVG para a planta baixa */
+  svg {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Estilo para o texto dentro do SVG */
+  text {
+    font-size: 16px;
+    fill: black;
+    text-anchor: middle;
+  }
+  
